@@ -20,6 +20,13 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = kF0F0F0;
+    
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    self.extendedLayoutIncludesOpaqueBars = NO;
+    self.modalPresentationCapturesStatusBarAppearance = NO;
+    self.edgesForExtendedLayout = UIRectEdgeNone;
 }
 
 #pragma mark - View rotation

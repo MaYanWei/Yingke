@@ -9,5 +9,7 @@
 #ifndef UIKitMacro_h
 #define UIKitMacro_h
 
+#define kScreenWidth          [[UIScreen mainScreen] applicationFrame].size.width
+#define kNavigationBarHeight  64
 
 #endif

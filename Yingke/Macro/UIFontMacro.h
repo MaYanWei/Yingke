@@ -9,5 +9,8 @@
 #ifndef UIFontMacro_h
 #define UIFontMacro_h
 
+#define kFont(size) [UIFont systemFontOfSize:size]
+
+#define kFont17 kFont(17.0)
 
 #endif /* UIFontMacro_h */

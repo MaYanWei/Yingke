@@ -12,7 +12,6 @@
 
 @property (nonatomic, strong) NSString *creatorId;
 @property (nonatomic, strong) NSString *birth;
-@property (nonatomic, strong) NSString *description;
 @property (nonatomic, strong) NSString *emotion;
 @property (nonatomic, strong) NSString *gender;
 @property (nonatomic, strong) NSString *gmutex;
