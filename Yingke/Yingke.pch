@@ -1,0 +1,21 @@
+//
+//  Yingke.h
+//  Yingke
+//
+//  Created by mayw on 2016/11/7.
+//  Copyright © 2016年 mayw. All rights reserved.
+//
+
+#ifndef Yingke_h
+#define Yingke_h
+
+#import "FoundationMacro.h"
+#import "UIKitMacro.h"
+#import "UIFontMacro.h"
+#import "HttpMacro.h"
+
+#import "MJExtension.h"
+
+#import "RequestManager.h"
+
+#endif
