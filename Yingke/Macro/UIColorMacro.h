@@ -19,5 +19,11 @@
 #define kECECEC      kColor(@"#ececec")
 
 #define k999999      kColor(@"#999999")
+#define k555555      kColor(@"#555555")
+#define k666666      kColor(@"#666666")
+
+#define kF2F4F5 kColor(@"#f2f4f5")
+
+#define kFFC565 kColor(@"#ffc565")
 
 #endif /* UIColorMacro_h */

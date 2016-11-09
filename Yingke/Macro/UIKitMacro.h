@@ -12,4 +12,10 @@
 #define kScreenWidth          [[UIScreen mainScreen] applicationFrame].size.width
 #define kNavigationBarHeight  64
 
+#define kImage(name) [UIImage imageNamed:name]
+
+#define kAvtarImageSWidth 40.0
+#define kAvtarImageMWidth 75.0
+#define kAvtarImageLWidth 360.0
+
 #endif

@@ -10,4 +10,6 @@
 
 @interface BaseViewController : UIViewController
 
+@property (nonatomic, assign) BOOL navigationBarHidden;
+
 @end

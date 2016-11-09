@@ -7,6 +7,7 @@
 //
 
 #import "BaseNavigationController.h"
+#import "LiveAudienceViewController.h"
 
 @interface BaseNavigationController () <UIGestureRecognizerDelegate, UINavigationControllerDelegate>
 
@@ -42,7 +43,11 @@
        didShowViewController:(UIViewController *)viewController
                     animated:(BOOL)animated
 {
-    navigationController.interactivePopGestureRecognizer.enabled = YES;
+    if ([viewController isKindOfClass:[LiveAudienceViewController class]]) {
+        navigationController.interactivePopGestureRecognizer.enabled = NO;
+    } else {
+        navigationController.interactivePopGestureRecognizer.enabled = YES;
+    }
 }
 
 #pragma mark - View rotation

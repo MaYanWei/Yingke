@@ -29,6 +29,24 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    if (self.navigationBarHidden) {
+        self.navigationController.navigationBarHidden = YES;
+    }
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    if (self.navigationBarHidden) {
+        self.navigationController.navigationBarHidden = NO;
+    }
+}
+
 #pragma mark - View rotation
 
 - (BOOL)shouldAutorotate

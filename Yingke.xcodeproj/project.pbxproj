@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		677541B81DD2F939005AA831 /* LiveListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 677541B61DD2F939005AA831 /* LiveListCell.m */; };
+		677541B91DD2F939005AA831 /* LiveListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 677541B71DD2F939005AA831 /* LiveListCell.xib */; };
+		677541BD1DD30109005AA831 /* NSObject+Height.m in Sources */ = {isa = PBXBuildFile; fileRef = 677541BC1DD30109005AA831 /* NSObject+Height.m */; };
+		677541C11DD3039E005AA831 /* NSArray+Shortcuts.m in Sources */ = {isa = PBXBuildFile; fileRef = 677541C01DD3039E005AA831 /* NSArray+Shortcuts.m */; };
+		677541C41DD30566005AA831 /* TapImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 677541C31DD30566005AA831 /* TapImageView.m */; };
+		677541C71DD30588005AA831 /* BaseAvatarImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 677541C61DD30588005AA831 /* BaseAvatarImageView.m */; };
+		677541CA1DD30847005AA831 /* TransformHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 677541C91DD30847005AA831 /* TransformHelper.m */; };
+		677541CD1DD30972005AA831 /* UIButtonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 677541CC1DD30972005AA831 /* UIButtonFactory.m */; };
+		677541D01DD30E7E005AA831 /* UIView+Avatar.m in Sources */ = {isa = PBXBuildFile; fileRef = 677541CF1DD30E7E005AA831 /* UIView+Avatar.m */; };
+		677541D31DD31F4C005AA831 /* BaseLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677541D21DD31F4C005AA831 /* BaseLiveViewController.m */; };
+		677541D61DD31F8C005AA831 /* LiveAudienceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677541D51DD31F8C005AA831 /* LiveAudienceViewController.m */; };
+		677541D91DD3208D005AA831 /* UIView+FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677541D81DD3208D005AA831 /* UIView+FirstViewController.m */; };
+		677542081DD33C00005AA831 /* LivePanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 677542071DD33C00005AA831 /* LivePanGestureRecognizer.m */; };
+		6775420B1DD33D25005AA831 /* LivingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6775420A1DD33D25005AA831 /* LivingView.m */; };
 		67902B2D1DD04688000962E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67902B2C1DD04688000962E7 /* main.m */; };
 		67902B381DD04688000962E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67902B371DD04688000962E7 /* Assets.xcassets */; };
 		67902B4E1DD04D07000962E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67902B441DD04D07000962E7 /* AppDelegate.m */; };
@@ -67,6 +81,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		677541B51DD2F939005AA831 /* LiveListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveListCell.h; sourceTree = "<group>"; };
+		677541B61DD2F939005AA831 /* LiveListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveListCell.m; sourceTree = "<group>"; };
+		677541B71DD2F939005AA831 /* LiveListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveListCell.xib; sourceTree = "<group>"; };
+		677541BB1DD30109005AA831 /* NSObject+Height.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Height.h"; sourceTree = "<group>"; };
+		677541BC1DD30109005AA831 /* NSObject+Height.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Height.m"; sourceTree = "<group>"; };
+		677541BF1DD3039E005AA831 /* NSArray+Shortcuts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Shortcuts.h"; sourceTree = "<group>"; };
+		677541C01DD3039E005AA831 /* NSArray+Shortcuts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Shortcuts.m"; sourceTree = "<group>"; };
+		677541C21DD30566005AA831 /* TapImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapImageView.h; sourceTree = "<group>"; };
+		677541C31DD30566005AA831 /* TapImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapImageView.m; sourceTree = "<group>"; };
+		677541C51DD30588005AA831 /* BaseAvatarImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAvatarImageView.h; sourceTree = "<group>"; };
+		677541C61DD30588005AA831 /* BaseAvatarImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAvatarImageView.m; sourceTree = "<group>"; };
+		677541C81DD30847005AA831 /* TransformHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformHelper.h; sourceTree = "<group>"; };
+		677541C91DD30847005AA831 /* TransformHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformHelper.m; sourceTree = "<group>"; };
+		677541CB1DD30972005AA831 /* UIButtonFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonFactory.h; sourceTree = "<group>"; };
+		677541CC1DD30972005AA831 /* UIButtonFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonFactory.m; sourceTree = "<group>"; };
+		677541CE1DD30E7E005AA831 /* UIView+Avatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Avatar.h"; sourceTree = "<group>"; };
+		677541CF1DD30E7E005AA831 /* UIView+Avatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Avatar.m"; sourceTree = "<group>"; };
+		677541D11DD31F4C005AA831 /* BaseLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLiveViewController.h; sourceTree = "<group>"; };
+		677541D21DD31F4C005AA831 /* BaseLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseLiveViewController.m; sourceTree = "<group>"; };
+		677541D41DD31F8C005AA831 /* LiveAudienceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveAudienceViewController.h; sourceTree = "<group>"; };
+		677541D51DD31F8C005AA831 /* LiveAudienceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveAudienceViewController.m; sourceTree = "<group>"; };
+		677541D71DD3208D005AA831 /* UIView+FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FirstViewController.h"; sourceTree = "<group>"; };
+		677541D81DD3208D005AA831 /* UIView+FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FirstViewController.m"; sourceTree = "<group>"; };
+		677542061DD33C00005AA831 /* LivePanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivePanGestureRecognizer.h; sourceTree = "<group>"; };
+		677542071DD33C00005AA831 /* LivePanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivePanGestureRecognizer.m; sourceTree = "<group>"; };
+		677542091DD33D25005AA831 /* LivingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivingView.h; sourceTree = "<group>"; };
+		6775420A1DD33D25005AA831 /* LivingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivingView.m; sourceTree = "<group>"; };
 		67902B281DD04688000962E7 /* Yingke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yingke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67902B2C1DD04688000962E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		67902B371DD04688000962E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -201,6 +242,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		677541BA1DD30109005AA831 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				677541BB1DD30109005AA831 /* NSObject+Height.h */,
+				677541BC1DD30109005AA831 /* NSObject+Height.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		677541BE1DD30389005AA831 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				677541BF1DD3039E005AA831 /* NSArray+Shortcuts.h */,
+				677541C01DD3039E005AA831 /* NSArray+Shortcuts.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
 		67902B1F1DD04687000962E7 = {
 			isa = PBXGroup;
 			children = (
@@ -260,6 +319,8 @@
 		67902B451DD04D07000962E7 /* Categorys */ = {
 			isa = PBXGroup;
 			children = (
+				677541BE1DD30389005AA831 /* NSArray */,
+				677541BA1DD30109005AA831 /* NSObject */,
 				67902C021DD069BE000962E7 /* UIView */,
 				67902BF41DD064C8000962E7 /* UIImage */,
 				67902BF01DD0637C000962E7 /* UIColor */,
@@ -270,6 +331,8 @@
 		67902B461DD04D07000962E7 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				677541C81DD30847005AA831 /* TransformHelper.h */,
+				677541C91DD30847005AA831 /* TransformHelper.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -296,6 +359,8 @@
 		67902B481DD04D07000962E7 /* Factorys */ = {
 			isa = PBXGroup;
 			children = (
+				677541CB1DD30972005AA831 /* UIButtonFactory.h */,
+				677541CC1DD30972005AA831 /* UIButtonFactory.m */,
 			);
 			path = Factorys;
 			sourceTree = "<group>";
@@ -343,6 +408,10 @@
 				67902BFB1DD068FF000962E7 /* RefreshTableHeaderView.h */,
 				67902BFC1DD068FF000962E7 /* RefreshTableHeaderView.m */,
 				67902BFD1DD068FF000962E7 /* RefreshTableHeaderView.xib */,
+				677541C21DD30566005AA831 /* TapImageView.h */,
+				677541C31DD30566005AA831 /* TapImageView.m */,
+				677541C51DD30588005AA831 /* BaseAvatarImageView.h */,
+				677541C61DD30588005AA831 /* BaseAvatarImageView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -374,6 +443,17 @@
 			children = (
 				67902BEC1DD062A7000962E7 /* LiveListTableViewController.h */,
 				67902BED1DD062A7000962E7 /* LiveListTableViewController.m */,
+				677541B51DD2F939005AA831 /* LiveListCell.h */,
+				677541B61DD2F939005AA831 /* LiveListCell.m */,
+				677541B71DD2F939005AA831 /* LiveListCell.xib */,
+				677541D11DD31F4C005AA831 /* BaseLiveViewController.h */,
+				677541D21DD31F4C005AA831 /* BaseLiveViewController.m */,
+				677541D41DD31F8C005AA831 /* LiveAudienceViewController.h */,
+				677541D51DD31F8C005AA831 /* LiveAudienceViewController.m */,
+				677542061DD33C00005AA831 /* LivePanGestureRecognizer.h */,
+				677542071DD33C00005AA831 /* LivePanGestureRecognizer.m */,
+				677542091DD33D25005AA831 /* LivingView.h */,
+				6775420A1DD33D25005AA831 /* LivingView.m */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -508,6 +588,10 @@
 			children = (
 				67902C031DD069C5000962E7 /* UIView+Frame.h */,
 				67902C041DD069C5000962E7 /* UIView+Frame.m */,
+				677541CE1DD30E7E005AA831 /* UIView+Avatar.h */,
+				677541CF1DD30E7E005AA831 /* UIView+Avatar.m */,
+				677541D71DD3208D005AA831 /* UIView+FirstViewController.h */,
+				677541D81DD3208D005AA831 /* UIView+FirstViewController.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -572,6 +656,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67902C011DD068FF000962E7 /* RefreshTableHeaderView.xib in Resources */,
+				677541B91DD2F939005AA831 /* LiveListCell.xib in Resources */,
 				67902BFF1DD068FF000962E7 /* RefreshTableFooterView.xib in Resources */,
 				67902B381DD04688000962E7 /* Assets.xcassets in Resources */,
 			);
@@ -585,6 +670,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67902BE21DD053B1000962E7 /* SocketManager+Receive.m in Sources */,
+				677541D91DD3208D005AA831 /* UIView+FirstViewController.m in Sources */,
 				67902B511DD04D5E000962E7 /* AppDelegate+Window.m in Sources */,
 				67902BD31DD052D8000962E7 /* UIView+WebCacheOperation.m in Sources */,
 				67902BF71DD064EA000962E7 /* UIImage+Color.m in Sources */,
@@ -592,12 +678,15 @@
 				67902BCA1DD052D8000962E7 /* SDWebImageManager.m in Sources */,
 				67902BD61DD0534F000962E7 /* DataCenter.m in Sources */,
 				67902BB31DD052D8000962E7 /* AFNetworkReachabilityManager.m in Sources */,
+				677541BD1DD30109005AA831 /* NSObject+Height.m in Sources */,
 				67902C001DD068FF000962E7 /* RefreshTableHeaderView.m in Sources */,
+				677541CD1DD30972005AA831 /* UIButtonFactory.m in Sources */,
 				67902BFE1DD068FF000962E7 /* RefreshTableFooterView.m in Sources */,
 				67902B551DD04E32000962E7 /* BaseViewController.m in Sources */,
 				67902BDC1DD05373000962E7 /* RequestManager.m in Sources */,
 				67902B4E1DD04D07000962E7 /* AppDelegate.m in Sources */,
 				67902BC81DD052D8000962E7 /* SDWebImageDownloader.m in Sources */,
+				6775420B1DD33D25005AA831 /* LivingView.m in Sources */,
 				67902BEE1DD062A7000962E7 /* LiveListTableViewController.m in Sources */,
 				67902BB91DD052D8000962E7 /* MJConst.m in Sources */,
 				67902BC61DD052D8000962E7 /* SDWebImageCompat.m in Sources */,
@@ -606,7 +695,9 @@
 				67902B2D1DD04688000962E7 /* main.m in Sources */,
 				67902BBB1DD052D8000962E7 /* MJProperty.m in Sources */,
 				67902BEB1DD05B43000962E7 /* CreatorItem.m in Sources */,
+				677542081DD33C00005AA831 /* LivePanGestureRecognizer.m in Sources */,
 				67902BBE1DD052D8000962E7 /* NSObject+MJKeyValue.m in Sources */,
+				677541CA1DD30847005AA831 /* TransformHelper.m in Sources */,
 				67902BD91DD05361000962E7 /* SocketManager.m in Sources */,
 				67902BD11DD052D8000962E7 /* UIImageView+WebCache.m in Sources */,
 				67902BCF1DD052D8000962E7 /* UIImage+WebP.m in Sources */,
@@ -617,17 +708,23 @@
 				67902BBA1DD052D8000962E7 /* MJFoundation.m in Sources */,
 				67902BD01DD052D8000962E7 /* UIImageView+HighlightedWebCache.m in Sources */,
 				67902BB41DD052D8000962E7 /* AFSecurityPolicy.m in Sources */,
+				677541D61DD31F8C005AA831 /* LiveAudienceViewController.m in Sources */,
+				677541C11DD3039E005AA831 /* NSArray+Shortcuts.m in Sources */,
 				67902BBC1DD052D8000962E7 /* MJType.m in Sources */,
 				67902BB51DD052D8000962E7 /* AFURLRequestSerialization.m in Sources */,
 				67902BB81DD052D8000962E7 /* KLSwitch.m in Sources */,
 				67902BD21DD052D8000962E7 /* UIView+WebCache.m in Sources */,
 				67902B581DD04E52000962E7 /* BaseNavigationController.m in Sources */,
+				677541C41DD30566005AA831 /* TapImageView.m in Sources */,
 				67902B5B1DD04F81000962E7 /* RefreshTableViewController.m in Sources */,
+				677541B81DD2F939005AA831 /* LiveListCell.m in Sources */,
 				67902BC11DD052D8000962E7 /* MKAnnotationView+WebCache.m in Sources */,
 				67902BC31DD052D8000962E7 /* NSImage+WebCache.m in Sources */,
 				67902BE81DD05983000962E7 /* LiveListItem.m in Sources */,
 				67902BC71DD052D8000962E7 /* SDWebImageDecoder.m in Sources */,
 				67902BBF1DD052D8000962E7 /* NSObject+MJProperty.m in Sources */,
+				677541D31DD31F4C005AA831 /* BaseLiveViewController.m in Sources */,
+				677541C71DD30588005AA831 /* BaseAvatarImageView.m in Sources */,
 				67902BE51DD053F4000962E7 /* RequestSessionManager.m in Sources */,
 				67902BBD1DD052D8000962E7 /* NSObject+MJCoding.m in Sources */,
 				67902BB61DD052D8000962E7 /* AFURLResponseSerialization.m in Sources */,
@@ -636,6 +733,7 @@
 				67902BC41DD052D8000962E7 /* SDImageCache.m in Sources */,
 				67902BCB1DD052D8000962E7 /* SDWebImagePrefetcher.m in Sources */,
 				67902BB71DD052D8000962E7 /* AFURLSessionManager.m in Sources */,
+				677541D01DD30E7E005AA831 /* UIView+Avatar.m in Sources */,
 				67902BCD1DD052D8000962E7 /* UIImage+GIF.m in Sources */,
 				67902BB21DD052D8000962E7 /* AFHTTPSessionManager.m in Sources */,
 			);

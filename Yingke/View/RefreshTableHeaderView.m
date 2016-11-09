@@ -14,15 +14,16 @@
     self.backgroundColor = [UIColor clearColor];
     [super awakeFromNib];
     
-    self.loadingImageView.image = [UIImage imageNamed:@"loading_01"];
-    self.loadingImageView.animationImages = [NSMutableArray arrayWithObjects:
-                                             [UIImage imageNamed:@"loading_01"],
-                                             [UIImage imageNamed:@"loading_02"],
-                                             [UIImage imageNamed:@"loading_03"],
-                                             [UIImage imageNamed:@"loading_04"],
-                                             [UIImage imageNamed:@"loading_05"],
-                                             [UIImage imageNamed:@"loading_06"],
-                                             nil];
+    self.loadingImageView.image = [UIImage imageNamed:@"refresh_fly_0001"];
+    
+    NSMutableArray *animationImages = [NSMutableArray arrayWithCapacity:28];
+    for (int i = 0; i < 28; i++) {
+        @autoreleasepool {
+            NSString *imageNamed = [NSString stringWithFormat:@"refresh_fly_00%02d", i + 1];
+            [animationImages addObject:kImage(imageNamed)];
+        }
+    }
+    self.loadingImageView.animationImages = animationImages;
     self.loadingImageView.animationDuration = 0.6;
     self.loadingImageView.animationRepeatCount = MAXFLOAT;
 }
